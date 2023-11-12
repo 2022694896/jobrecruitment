@@ -1,24 +1,62 @@
-# Compiled class file
-*.class
+# System Files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Log file
+# Thumbnails
+._*
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# BlueJ files
-*.ctxt
+# Dependency directories
+node_modules
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Optional npm cache directory
+.npm
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Optional eslint cache
+.eslintcache
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Yarn Integrity file
+.yarn-integrity
+
+# Optional sass cache
+/.sass-cache
+gulpfile.tmp.*
+
+################################################################################
+############################### DEVELOPMENT_ONLY ###############################
+
+# Excludes generated
+/dist
+/build
+/tmp
+/temp
+
+# Assets
+# **/assets/vendor
+# **/static/vendor
+
+# HTML files
+/html-demo
+/html-starter-demo
+
+# Package Lock files
+/package-lock.json
